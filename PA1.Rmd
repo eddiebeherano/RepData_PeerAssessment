@@ -7,7 +7,7 @@
 ```{r processdata, echo=FALSE}
 library(plyr)
 
-setwd("C:/Users/Eddie-Main/Desktop/R data folder/Reproducible Research/")
+setwd("C:/Users/Eddie-Main/Desktop/R data folder/Reproducible Research/RepData_PeerAssessment1")
 activity <-read.csv('activity.csv', stringsAsFactors=FALSE, header=TRUE)
 activity <- na.omit(activity)
 
